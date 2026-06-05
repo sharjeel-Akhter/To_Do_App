@@ -1,0 +1,16 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Hero{
+    height: 600px;
+    width: 50%;
+    border: 2px black solid;
+    background-color: whitesmoke;
+    box-shadow: 2 1 1 1 black;
+    align-content: center;
+   
+}
