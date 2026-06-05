@@ -1,16 +1,29 @@
 body{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   
+    text-align: center;
 }
 
 .Hero{
     height: 600px;
-    width: 50%;
-    border: 2px black solid;
+    width: 70%;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.8);
     background-color: whitesmoke;
     box-shadow: 2 1 1 1 black;
-    align-content: center;
+    margin: 40px;
    
+   
+}
+
+.Hero button, input{
+    background-color: rgb(13, 18, 18);
+    color: white;
+    font-size: 30px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.Hero button:hover{
+    background-color: rgb(41, 45, 39);
 }
